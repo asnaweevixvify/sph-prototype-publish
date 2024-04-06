@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    background-color:#121212;
+    position: fixed;
+    width:100%;
+    z-index:1;
+    
+    
+ }
+   
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color:gray;
+    opacity: 0.5;
+
+}
+.container2{
+    background:linear-gradient(45deg, #001E61, #00267B);
+    overflow: hidden;
+    padding-top: 80px;
+    
+}
+.ul{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    
+   }
+   .li{
+    padding: 30px ;
+    color: white;
+    font-family:"Nunito Sans";
+    font-size: 20px;
+    text-decoration: none;
+}
+    .img4{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .h1{
+        text-align: center;
+        font-family: "nunito Sans","Anuphan",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: white;
+        margin-bottom: 20px;
+        font-size: 80px;
+    }
+    .h2{
+        text-align: center;
+        font-family: "nunito Sans","Anuphan",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: white;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    .img1{
+        
+        border: 5px solid white;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .footer{
+        background-color: white;
+        
+    }
+    .h5{
+        color: #002C92;
+        font-family: "Nunito Sans","Anuphan";
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .facebook{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+     }
+     .p3{
+        
+        margin-left: 10px;
+       }
+       .copyright{
+        display:flex;
+        
+       }
+       @media (max-width:500px){
+        .li{
+            font-size:15px;
+            padding: 20px;
+            margin-left:20px
+         }
+         .container{
+            background-color: #121212;
+            overflow: hidden;
+            padding-bottom: 10px;
+        }
+        .img4{
+            margin-top: 10px;
+            margin-left: 20px;
+            width:40px;
+            height:40px;
+        }
+        .h1{
+            font-size:40px;
+        }
+        .h2{
+            font-size:20px;
+        }
+        .img1{
+        
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+       }
+         
+    
+    
+    
+
+    

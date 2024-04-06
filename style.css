@@ -1,0 +1,239 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+   background-color:#121212;
+   position: fixed;
+   width:100%;
+   z-index:1;
+   
+   
+}
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    background-color:gray;
+    
+
+}
+.container{
+    background-color: #121212;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.img4{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:60px;
+    height:60px;
+}
+.container2{
+    background-color: #002C92;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.ul{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    
+   }
+   .li{
+    padding: 30px ;
+    color: white;
+    font-family:"Nunito Sans";
+    font-size: 20px;
+    text-decoration: none;
+   
+   }
+   .img1{
+    filter: opacity(0.3);
+    margin-top:100px;
+    
+    }
+    .h1{
+        font-family: "Nunito Sans";
+        color: white;
+        font-size: 80px;
+        position: absolute;
+        left: 15%;
+        top:40%;
+        
+        
+        
+        
+       
+    }
+    .h2{
+        font-family: "Nunito Sans";
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .img2{
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        width:180px;
+        height:105px;
+
+       
+    }
+    .p1{
+        color: white;
+        font-family: "Nunito Sans";
+        margin-left: 550px;
+    }
+    .h3{
+        color: white;
+        font-family: "Nunito Sans","Anuphan";
+        text-align: center;
+        
+    }
+    .project{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        
+        
+    }
+    .img3{
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        width:280px;
+        height:175px;
+    }
+    .h4{
+        color: white;
+        font-family: "Nunito Sans","Anuphan";
+        text-align: center;
+        padding: 2px 0px;
+        
+    }
+    .p2{
+        color: white;
+        font-family: "Nunito Sans","Anuphan";
+        border:1px solid white;
+        border-radius: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .footer{
+        background-color: white;
+        
+    }
+    .h5{
+        color: #002C92;
+        font-family: "Nunito Sans","Anuphan";
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .facebook{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+     }
+     .p3{
+        margin-left: 10px;
+       }
+       .copyright{
+        display:flex;
+        margin-top: 10px;
+        margin-left: 10px;
+       }
+       .button{
+        background-color: transparent;
+        border-color: white;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+         }
+         .container3{
+            background-color: #3C0372;
+            overflow: hidden;
+            
+        }
+        .img6{
+            width:700px;
+            height:450px;
+            margin-top:20px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            padding-bottom: 20px;
+        }
+       @media(max-width:500px) {
+         .li{
+            font-size:15px;
+            padding: 20px;
+            margin-left:20px
+         }
+         .container{
+            background-color: #121212;
+            overflow: hidden;
+            padding-bottom: 10px;
+        }
+        .img4{
+            margin-top: 10px;
+            margin-left: 20px;
+            width:40px;
+            height:40px;
+        }
+        .h1{
+            font-family: "Nunito Sans";
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top:15%;
+        }
+        .img1{
+            filter: opacity(0.3);
+            margin-top:50px;
+            
+            }
+            .h2{
+                font-size:20px;
+            }
+            .project{
+                display:block;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 20px;
+                
+            }
+            .img2{
+                padding: 20px;
+                border: 1px solid transparent;
+                border-radius: 40px;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-top: auto;
+                width:90px;
+                height:50px;
+            }
+            .h3{
+                font-size:15px;
+            }
+            .img3{
+                width:190px;
+                height:105px;
+            }
+            .img6{
+                width:190px;
+                height:105px;
+            }
+            .p2{
+                font-size: 15px;
+            }
+       }

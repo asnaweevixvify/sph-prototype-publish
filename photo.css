@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    background-color:#121212;
+    position: fixed;
+    width:100%;
+    z-index:1;
+    
+    
+ }
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color:gray;
+
+}
+.allmem{
+    padding-top:120px;
+}
+.container{
+    background-color: #001E61;
+    overflow: hidden;
+    
+}
+.ul{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    
+   }
+   .li{
+    padding: 30px ;
+    color: white;
+    font-family:"Nunito Sans";
+    font-size: 20px;
+    text-decoration: none;
+}
+    .img4{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .footer{
+        background-color: white;
+        
+    }
+    .h5{
+        color: #002C92;
+        font-family: "Nunito Sans","Anuphan";
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .facebook{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+     }
+     .p3{
+        
+        margin-left: 10px;
+       }
+       .copyright{
+        display:flex;
+        
+       }
+       .img2{
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+       }
+       .h1{
+        font-family:"Nunito Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 80px;
+       }
+       .h2{
+        font-family:"Nunito Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+       }
+       .ptteamname{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+       }
+       .img5{
+        border:2px solid transparent;
+        border-radius: 10px;
+
+        
+       }
+       .img2{
+        width:180px;
+        height:105px;
+       }
+       @media (max-width:500px){
+        .li{
+            font-size:15px;
+            padding: 20px;
+            margin-left:20px
+         }
+         .container{
+            background-color: #121212;
+            overflow: hidden;
+            padding-bottom: 10px;
+        }
+        .img4{
+            margin-top: 10px;
+            margin-left: 20px;
+            width:40px;
+            height:40px;
+        }
+        .h1{
+            font-size:30px;
+        }
+        .img2{
+            width:90px;
+            height:55px;
+           }
+           .allmem{
+            padding-top:20px;
+        }
+    }

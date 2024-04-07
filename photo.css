@@ -69,12 +69,14 @@ a:hover{
         padding: 20px;
         border: 1px solid transparent;
         border-radius: 40px;
+        margin-top: 20px;
        }
        .h1{
         font-family:"Nunito Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
         text-align: center;
         font-size: 80px;
+        margin-top: 25px;
        }
        .h2{
         font-family:"Nunito Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

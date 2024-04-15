@@ -54,7 +54,13 @@ a:hover{
     margin-top:100px;
     width:100%;
     height:20%;
+    animation-duration: 2s;
+    animation-name: ani-img-1;
     
+    }
+    @keyframes ani-img-1{
+        0% {opacity: 0; margin-top: 200px;}
+        100% { opacity: 1; margin-top:100px;}
     }
     .h1{
         font-family: "Nunito Sans";
@@ -63,11 +69,13 @@ a:hover{
         position: absolute;
         left: 15%;
         top:40%;
-        
-        
-        
-        
-       
+        animation-duration: 2s;
+        animation-name: ani-h1;
+    }
+    
+    @keyframes ani-h1{
+        0% {opacity: 0; top:60%}
+        100%{opacity: 1;}
     }
     .h2{
         font-family: "Nunito Sans";
@@ -82,8 +90,15 @@ a:hover{
         border-radius: 40px;
         width:180px;
         height:105px;
+        animation-name: ani-img2;
+        animation-duration: 2s;
 
        
+    }
+    
+    @keyframes ani-img2{
+        0%{width:0px;height:0px;opacity: 0;}
+        100%{width:180px; height:105px; opacity: 1;}
     }
     .p1{
         color: white;
@@ -110,6 +125,12 @@ a:hover{
         border-radius: 40px;
         width:280px;
         height:175px;
+        animation-name: ani-img3;
+        animation-duration: 2s;
+    }
+    @keyframes ani-img3{
+        0%{width:0px;height:0px;opacity: 0;}
+        100%{width:280px; height:175px; opacity: 1;}
     }
     .h4{
         color: white;
@@ -174,6 +195,7 @@ a:hover{
             border-radius: 10px;
             padding-bottom: 20px;
         }
+
        @media(max-width:500px) {
          .li{
             font-size:15px;
@@ -197,14 +219,24 @@ a:hover{
             font-size: 20px;
             position: absolute;
             top:15%;
+            animation-duration: 2s;
+            animation-name: ani-h1;
+        }
+        @keyframes ani-h1{
+            0% {opacity: 0; top:20%}
+            100%{opacity: 1;}
         }
         .img1{
             filter: opacity(0.3);
             margin-top:50px;
             width:100%;
             height:50%;
-            
-            
+            animation-duration: 2s;
+            animation-name: ani-img-1;
+            }
+        @keyframes ani-img-1{
+            0% {opacity: 0; margin-top: 70px;}
+            100% { opacity: 1; margin-top:50px;}
             }
             .h2{
                 font-size:20px;
@@ -226,13 +258,26 @@ a:hover{
                 margin-top: auto;
                 width:90px;
                 height:50px;
+                animation-name: ani-img2;
+                animation-duration: 2s;
             }
+            @keyframes ani-img2{
+                0% {width:0px; height:0px;opacity: 0;}
+                100% {width:90px; height:50px; opacity: 1;}
+            }
+            
             .h3{
                 font-size:15px;
             }
             .img3{
                 width:190px;
                 height:105px;
+                animation-name: ani-img3;
+                animation-duration: 2s;
+            }
+            @keyframes ani-img3{
+                0%{width:0px;height:0px;opacity: 0;}
+                100%{width:190px; height:105px; opacity: 1;}
             }
             .img6{
                 width:190px;
@@ -241,4 +286,5 @@ a:hover{
             .p2{
                 font-size: 15px;
             }
+        }
        }

@@ -26,7 +26,7 @@ a:hover{
 }
 .img4{
     margin-top: 10px;
-    margin-left: 20px;
+    
     width:60px;
     height:60px;
 }
@@ -39,6 +39,7 @@ a:hover{
     display:flex;
     list-style: none;
     text-decoration: none;
+    margin-left: 20px;
     
    }
    .li{

@@ -33,6 +33,7 @@ a:hover{
     display:flex;
     list-style: none;
     text-decoration: none;
+    margin-left: 20px;
     
    }
    .li{
@@ -44,7 +45,7 @@ a:hover{
 }
     .img4{
         margin-top: 10px;
-        margin-left: 20px;
+      
     }
     .footer{
         background-color: white;

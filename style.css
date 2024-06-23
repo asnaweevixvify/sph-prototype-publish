@@ -210,10 +210,11 @@ a:hover{
         }
         .img4{
             margin-top: 10px;
-            margin-left: 20px;
+            
             width:40px;
             height:40px;
         }
+        
         .h1{
             font-family: "Nunito Sans";
             color: white;
@@ -223,6 +224,7 @@ a:hover{
             animation-duration: 2s;
             animation-name: ani-h1;
         }
+    
         @keyframes ani-h1{
             0% {opacity: 0; top:20%}
             100%{opacity: 1;}
@@ -288,4 +290,4 @@ a:hover{
                 font-size: 15px;
             }
         }
-       }
+       

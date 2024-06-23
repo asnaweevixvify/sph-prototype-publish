@@ -83,7 +83,7 @@ a:hover{
         font-family:"Nunito Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
        }
        .ptteamname{
         display: flex;
@@ -102,19 +102,21 @@ a:hover{
         height:105px;
        }
        @media (max-width:500px){
+        
         .li{
             font-size:15px;
             padding: 20px;
-            margin-left:20px
+          
+            
          }
          .container{
-            background-color: #121212;
+            background-color: #001E61;
             overflow: hidden;
             padding-bottom: 10px;
         }
         .img4{
             margin-top: 10px;
-            margin-left: 20px;
+            
             width:40px;
             height:40px;
         }
